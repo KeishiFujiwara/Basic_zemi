@@ -3,10 +3,8 @@ import pandas as pd
 
 # Set a random seed for reproducibility
 np.random.seed(42)
-
 # Create random data for regression model
 n_samples = 100
-
 # Features
 X1 = np.random.rand(n_samples) * 10  # Random values between 0 and 10
 X2 = np.random.rand(n_samples) * 5   # Random values between 0 and 5
