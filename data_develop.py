@@ -21,4 +21,4 @@ df = pd.DataFrame({
     'Response': y
 })
 
-df.to_csv('/Users/kc/Desktop/Basic_zemi/data/sampledata.csv')
+df.to_csv('/Users/kc/Desktop/Basic_zemi/data/sampledata.csv', index=False)
