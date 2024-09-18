@@ -74,9 +74,6 @@ for i in range(iterations):
         cost = compute_cost(X, Y, beta)
         # print(f"Iteration {i}: Cost = {cost}, beta = {beta}")
 
-# 最終結果
-#print(f"Final beta: {beta}")
-
 # 逆行列を用いた回帰係数 β の計算
 Y_hat = X @ beta
 
